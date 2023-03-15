@@ -1,11 +1,19 @@
 # Мовшин Максим | БПИ213 | ДЗ-5
-команда для запуска: `gcc main.c -o res && ./res <имя входного файла> <имя выходного файла>`
-
-например:
+команды для запуска: 
+- первый терминал
 ```
-gcc main.c -o res && ./res main.c output.txt && cat output.txt
+gcc first.c -o first && ./first
 ```
-output.txt:
+- второй терминал
 ```
-
+gcc second.c -o second && ./second
+```
+Вывод:
+- первый терминал
+```
+Reader exit, str_buf: Hello, number1
+```
+- первый терминал
+```
+Reader exit, str_buf: Hello, number2
 ```
